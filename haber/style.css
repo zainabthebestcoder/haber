@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  .navbar {
+    height: 5rem;
+    padding: 1rem;
+    background: rgb(143, 139, 139);
+  }
+  
+  .navbar .navlogo img {
+    height: 4rem;
+    width: 8rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .navbar .navlink a {
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+  }
+  .navbar .navlink a:hover {
+    color: orange;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar .navicons i {
+    height: 3rem;
+    width: 3rem;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0.7rem;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+  }
+  .navbar .navicons i:hover,
+  .navbar .bar:hover {
+    background: #ff914d;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #fff;
+  }
+  .bar {
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    padding: 0.7rem;
+    background-color: black;
+  }
+  .section1 {
+    padding: 40rem 20rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.281)),
+      url(k/first\ bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .text {
+    background-color: #ff914d;
+    color: #000;
+    padding: 1rem;
+    width: 50rem;
+  }
+  .text i {
+    font-size: 50px;
+    margin: 2rem 0;
+    color: #000;
+  }
+  .text h1 {
+    color: #000;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .sec2text h1 {
+    font-weight: bolder;
+    color: #000;
+  }
+  .sec2card i {
+    height: 3rem;
+    width: 3rem;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0.7rem;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background: #ff914d;
+  }
+  .sec2card h4 {
+    font-family: serif;
+    color: #000;
+    font-weight: bolder;
+  }
+  .sec2card p {
+    color: #000;
+  }
+  .sec2card button {
+    height: 3rem;
+    width: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    color: #000;
+    border: 3px solid gray;
+    font-weight: bolder;
+  }
+  .sec2card button:hover,
+  .sec4left button:hover,
+  .sec4right button:hover {
+    background: gray;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #fff;
+  }
+  .section3 {
+    background: #f2f2f2;
+    color: #000;
+  }
+  .sec3card {
+    height: 40rem;
+    background-color: #fff;
+    padding: 8px 1rem;
+    box-shadow: 0 4px 8px #a7a3a3;
+    cursor: pointer;
+  }
+  .sec3card .sec3cardimg img {
+    height: 20rem;
+    width: 16rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .sec3card p {
+    color: #000;
+    font-weight: 700;
+  }
+  .sec3card h2 {
+    font-weight: bolder;
+    color: #ff914d;
+    font-family: serif;
+  }
+  .sec3card i {
+    height: 3rem;
+    width: 3rem;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 5px;
+    border: 1px solid #000;
+    padding: 0.7rem;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+  }
+  .sec4left,
+  .sec4right {
+    background: #ff914d;
+    padding: 2rem;
+    color: #fff;
+  }
+  .sec4left h1,
+  .sec4right h1 {
+    font-family: serif;
+    font-weight: bolder;
+    color: #fff;
+  }
+  .sec4left button,
+  .sec4right button {
+    color: #f2f2f2;
+    border: 3px solid #fff;
+    height: 3rem;
+    width: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    font-weight: bolder;
+  }
+  .sec4left button:hover,
+  .sec4right button:hover {
+    background: #fff;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #000;
+  }
+  .sec4left li,
+  .sec4right li {
+    margin: 1rem 0;
+  }
+  .sec4right {
+    background-color: hsl(244, 68%, 41%);
+  }
+  .section5 {
+    background-color: rgb(247, 247, 247);
+    padding: 100px 0px;
+  }
+  
+  .sec5img img {
+    margin: 10px 0px;
+  }
+  .section6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.795)),
+      url(asset/Img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+  }
+  .sec6text h1 {
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+  .userdetail input {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin: 1rem 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.281);
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  .userfeedback textarea {
+    display: block;
+    width: 100%;
+    height: 12rem;
+    margin: 1rem 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.281);
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  .userbtn button {
+    height: 3rem;
+    width: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    background: orange;
+    font-weight: bolder;
+    color: #fff;
+  }
+  .section7 {
+    background-color: gray;
+  }
+  .mydetail i {
+    height: 3rem;
+    width: 3rem;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 1.8rem 0;
+  
+    padding: 0.7rem;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background: #ff914d;
+  }
+  .mydetail a {
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin: 2.3rem 0 0;
+  }
+  .call p {
+    margin: 10px 0 0;
+    text-align: left;
+    color: #fff;
+    font-weight: bolder;
+  }
+  .mydetail a:hover {
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #000;
+  }
+  .section8 {
+    color: white;
+    background-color: rgb(168, 157, 157);
+  }
+  .lastleft h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  span {
+    font-size: medium;
+  }
+  .lastleft i {
+    color: #ff914d;
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  iframe {
+    object-fit: cover;
+    object-position: center;
+    height: 30rem;
+    width: 100%;
+  }
+  
